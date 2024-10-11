@@ -14,7 +14,7 @@ header {
   height: 200px;
   display: flex;;
   flex-direction: row;
-  background: linear-gradient(to right, #8a6c09b5, #5d4b68de);
+  background: linear-gradient(to right, #a9840bb5, #a39f6fde);
   text-decoration:overline;
   color: white;
   text-align:center; 
