@@ -46,6 +46,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.puntos {
+  margin-left:15px;
+}
+
 .contenedor {
   display: flex;
   align-items:flex-start;
@@ -80,7 +84,6 @@ nav a:hover {
 }
 
 .contenedor section h2 {
-  text-decoration: underline;
   margin-bottom: 10px;
 }
 
