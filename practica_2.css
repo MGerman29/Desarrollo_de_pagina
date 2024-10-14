@@ -58,6 +58,7 @@ nav a:hover {
   height: auto;
   border-radius: 4%;
   margin-bottom: 15px;
+  margin-left:20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
  
 }
@@ -65,7 +66,7 @@ nav a:hover {
 .contenedor div {
   display: flex;
   flex-direction: column; /* Apila las secciones en columna */
-  gap: 25px; /* Espacio entre las secciones */
+  gap: 25px; Espacio entre las secciones
  
 }
 
