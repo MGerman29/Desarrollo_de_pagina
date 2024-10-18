@@ -11,25 +11,39 @@ body {
 
 }
 header {
-  height: 200px;
-  display: flex;;
-  flex-direction: row;
-  background: linear-gradient(to right, #a9840bb5, #a39f6fde);
-  text-decoration:overline;
+  height: 100px;
+  background: linear-gradient(to right, #a9840bb5, #d4cc76de);
   color: white;
-  text-align:center; 
-  font-size: 20px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 0;
-  
-
+  justify-content: space-between;
+  position: relative;
 }
 
 
 header h1 {
   margin: 0;
-  text-shadow:0 0 20px rgba(247, 244, 244, .3);
+  text-decoration:overline;
+  padding:0;
+  text-align:center; 
+  font-size: 35px;
+  text-shadow:0 0 20px rgba(247, 244, 244, .5);
+  flex: 1;
+}
+
+header h2{
+  left: 20px;
+  margin: 0;
+  font-size: 40px;
+  position: absolute;
+  border-radius: 5%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
 }
 
 nav {
