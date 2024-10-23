@@ -105,12 +105,11 @@ nav a:hover {
 
 footer {
   text-align:center;
-  background-color: rgba(99, 85, 15, 0.276);
+  background-color: rgba(133, 133, 132, 0.626);
   color: white;
-  padding: 1em 0;
+  padding: 10px;
   margin-top: 10px;
   width: 100%;
-  bottom: 0;  
 }
 
 .aside-container {
@@ -126,13 +125,13 @@ aside {
   align-items: flex-start;
   flex:1;
   width: 350px;
-  border: 1px solid #7b7663;
+  border: 1px solid #9f9f56;
 	border-radius: 3px;
   padding: 10px;
 	flex-direction:row;
   align-items:center;
 	display: flex;
-	background: rgba(124, 108, 28, 0.276);
+	background: rgba(201, 174, 39, 0.313);
 }
 
 .ad {
