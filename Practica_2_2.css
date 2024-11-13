@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2828281d;
+    color: #77a5d4;
+    line-height: 1.6;
+    padding: 0 20px;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #01001b8f;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #ffffff;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Contenedor en cuadrícula para los Sephirot */
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para cada Sephirah */
+.sephirah {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 3px solid transparent;
+}
+
+.sephirah:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Títulos y párrafos de cada Sephirah */
+.sephirah h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #34495e;
+    margin-bottom: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sephirah p {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin: 0;
+}
+
+/* Colores específicos para cada Sephirah */
+#keter { border-color: #bdc3c7; }
+#chochmah { border-color: #a2d5f2; }
+#binah { border-color: #9b59b6; }
+#chesed { border-color: #2980b9; }
+#gevurah { border-color: #e74c3c; }
+#tiferet { border-color: #f1c40f; }
+#netzach { border-color: #27ae60; }
+#hod { border-color: #e67e22; }
+#yesod { border-color: #bdc3c7; }
+#malchut { border-color: #34495e; }
+
+/* Centrado de Yesod y Malchut */
+#yesod {
+    grid-column: span 2; /* Ocupa dos columnas */
+    justify-self: center; /* Centrado en la celda */
+    margin-bottom: 20px;
+}
+
+#malchut {
+    grid-column: span 2; /* Ocupa dos columnas */
+    justify-self: center; /* Centrado en la celda */
+    margin-bottom: 20px;
+}   
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .main-grid {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .main-grid {
+        grid-template-columns: 1fr; /* Una columna en pantallas extra pequeñas */
+    }
+}
